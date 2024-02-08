@@ -1,0 +1,6 @@
+package com.example.proyectofinalad_adriansabinoperez
+
+import org.springframework.stereotype.Service
+
+@Service
+class EmpresaDesarrolladoraService(private val empresaDesarrolladoraRepository: EmpresaDesarrolladoraRepository)
